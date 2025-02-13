@@ -80,3 +80,9 @@
 .footer a:hover {
     color: #FFD700 !important;
 }
+
+@media (max-width: 575.98px) { 
+    .footer-logo {
+        width: 98px;
+    }
+}
