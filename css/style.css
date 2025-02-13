@@ -5,6 +5,7 @@
     --bs-secondary-rgb: 117, 117, 117;
     --bs-border-color: #e0e0e0;
     --bs-body-color: #212121;
+    --bs-primary-rgb: 255, 215, 0;
 }
 
 .dropdown-menu {
@@ -69,4 +70,13 @@
 .nav-offcanvas .dropdown-menu {
     position: static !important;
     transform: translate3d(0px, 0, 0px) !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Golos Text';
+    font-weight: 700;
+}
+
+.footer a:hover {
+    color: #FFD700 !important;
 }
