@@ -17,7 +17,7 @@
         <div class="bg-dark text-light py-2">
             <div class="container d-flex align-items-center justify-content-between">
                 <div class="d-flex gap-3">
-                    <div>
+                    <div class="d-none d-lg-block">
                         <i class="fa-solid fa-clock text-secondary"></i>
                         <span class="small lh-sm">Часы работы: ПН-ПТ 10:00-18:00</span>
                     </div>
@@ -25,11 +25,11 @@
                         <i class="fa-solid fa-square-phone bi text-secondary"></i>
                         <span class="small lh-sm">+998 78 150 150 0</span>
                     </a>
-                    <a class="link-light icon-link icon-link-hover text-decoration-none" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="mailto:contact@goldsoft.uz">
+                    <a class="link-light icon-link icon-link-hover text-decoration-none d-none d-md-inline-flex" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="mailto:contact@goldsoft.uz">
                         <i class="fa-solid fa-square-envelope bi text-secondary"></i>
                         <span class="small lh-sm">contact@goldsoft.uz</span>
                     </a>
-                    <a class="link-light icon-link icon-link-hover text-decoration-none" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://t.me/goldsoftsupport" target="_blank" rel="noopener noreferrer">
+                    <a class="link-light icon-link icon-link-hover text-decoration-none d-none d-sm-inline-flex" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://t.me/goldsoftsupport" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-telegram bi text-secondary"></i>
                         <span class="small lh-sm">@goldsoftsupport</span>
                     </a>
@@ -39,8 +39,8 @@
                         <img class="align-bottom" src="icons/languages/russia.svg" alt="Русский">
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"><img src="icons/languages/russia.svg" alt="Русский"> Русский</a></li>
-                        <li><a class="dropdown-item" href="#"><img src="icons/languages/uzbekistan.svg" alt="Узбекский"> Узбекский</a></li>
+                        <li><a class="dropdown-item" href="#"><img class="align-bottom" src="icons/languages/russia.svg" alt="Русский"> Русский</a></li>
+                        <li><a class="dropdown-item" href="#"><img class="align-bottom" src="icons/languages/uzbekistan.svg" alt="Узбекский"> Узбекский</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,13 +48,13 @@
         <div class="bg-light text-dark py-2 border-bottom">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-2">
+                    <div class="col-6 col-sm-4 col-xl-auto col-xxl-2">
                         <a href="#">
                             <img src="img/logos/gold_soft_logo.svg" alt="Gold Soft">
                         </a>
                     </div>                    
-                    <div class="col-md-7">
-                        <ul class="nav">
+                    <div class="col-xl-auto flex-fill d-none d-xl-block">
+                        <ul class="nav justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-link fw-bold active link-dark" aria-current="page" href="#">Главная</a>
                             </li>
@@ -95,9 +95,38 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-3 d-flex justify-content-end gap-3">
-                        <a class="btn btn-primary" href="#" role="button">Скачать</a>
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">Оставить заявку</button>
+                    <div class="col-6 col-sm-8 col-xl-3">
+                        <div class="d-flex justify-content-end gap-3">
+                            <a class="btn btn-primary d-none d-sm-block" href="#" role="button">Скачать</a>
+                            <button type="button" class="btn btn-outline-primary d-none d-sm-block" data-bs-toggle="modal" data-bs-target="#feedbackModal">Оставить заявку</button>
+                            <button class="btn btn-primary d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHeader"
+                                aria-controls="offcanvasHeader">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHeader" aria-labelledby="offcanvasHeaderLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasHeaderLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+                                    etc.
+                                </div>
+                                <div class="dropdown mt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
