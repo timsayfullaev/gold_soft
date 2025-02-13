@@ -1,0 +1,62 @@
+:root {
+    --bs-font-sans-serif: "Open Sans";
+    --bs-dark-rgb: 33, 33, 33;
+    --bs-light-rgb: 250, 250, 250;
+    --bs-secondary-rgb: 117, 117, 117;
+    --bs-border-color: #e0e0e0;
+    --bs-body-color: #212121;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #FFD700;
+    --bs-dropdown-link-active-color: #212121;
+}
+
+.dropdown-toggle-lang::after {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    content: '\f107';
+    border: none;
+    vertical-align: 0;
+}
+
+.dropdown-toggle-lang.show::after {
+    transform: rotate(180deg);
+}
+
+.dropdown-toggle-nav::after {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    content: '\f107';
+    border: none;
+    vertical-align: 0;
+}
+
+.dropdown-toggle-nav.show::after {
+    transform: rotate(180deg);
+}
+
+.btn-primary {
+    --bs-btn-color: #212121;
+    --bs-btn-bg: #FFD700;
+    --bs-btn-border-color: #FFD700;
+    --bs-btn-hover-color: #212121;
+    --bs-btn-hover-bg: #FFDF33;
+    --bs-btn-hover-border-color: #FFDF33;
+    --bs-btn-active-color: #212121;
+    --bs-btn-active-bg: #E5C100;
+    --bs-btn-active-border-color: #E5C100;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #212121;
+    --bs-btn-border-color: #212121;
+    --bs-btn-hover-color: #212121;
+    --bs-btn-hover-bg: #FFDF33;
+    --bs-btn-hover-border-color: #FFDF33;
+    --bs-btn-active-color: #212121;
+    --bs-btn-active-bg: #E5C100;
+    --bs-btn-active-border-color: #E5C100;
+}
