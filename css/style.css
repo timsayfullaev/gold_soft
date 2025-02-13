@@ -60,3 +60,13 @@
     --bs-btn-active-bg: #E5C100;
     --bs-btn-active-border-color: #E5C100;
 }
+
+.nav-offcanvas .nav-link {
+    padding-left: 0;
+    padding-inline-end: 0;
+}
+
+.nav-offcanvas .dropdown-menu {
+    position: static !important;
+    transform: translate3d(0px, 0, 0px) !important;
+}

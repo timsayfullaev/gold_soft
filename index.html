@@ -56,7 +56,7 @@
                     <div class="col-xl-auto flex-fill d-none d-xl-block">
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
-                                <a class="nav-link fw-bold active link-dark" aria-current="page" href="#">Главная</a>
+                                <a class="nav-link link-dark fw-bold active" aria-current="page" href="#">Главная</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
@@ -99,32 +99,57 @@
                         <div class="d-flex justify-content-end gap-3">
                             <a class="btn btn-primary d-none d-sm-block" href="#" role="button">Скачать</a>
                             <button type="button" class="btn btn-outline-primary d-none d-sm-block" data-bs-toggle="modal" data-bs-target="#feedbackModal">Оставить заявку</button>
-                            <button class="btn btn-primary d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHeader"
-                                aria-controls="offcanvasHeader">
+                            <button class="btn btn-primary rounded-circle d-xl-none p-0" style="width: 38px; height: 38px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHeader" aria-controls="offcanvasHeader">
                                 <i class="fa-solid fa-bars"></i>
                             </button>
                         </div>
                         
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHeader" aria-labelledby="offcanvasHeaderLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasHeaderLabel">Offcanvas</h5>
+                                <h5 class="offcanvas-title" id="offcanvasHeaderLabel">Меню</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <div>
-                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-                                    etc.
-                                </div>
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                        Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
+                                <ul class="nav nav-offcanvas flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link link-dark fw-bold active" aria-current="page" href="#">Главная</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                            aria-expanded="false">О нас</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Компания</a></li>
+                                            <li><a class="dropdown-item" href="#">Отрасли</a></li>
+                                            <li><a class="dropdown-item" href="#">Технологии</a></li>
+                                            <li><a class="dropdown-item" href="#">Новости</a></li>
+                                            <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                            <li><a class="dropdown-item" href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                            aria-expanded="false">Программы</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Скачать</a></li>
+                                            <li><a class="dropdown-item" href="#">Обновления</a></li>
+                                            <li><a class="dropdown-item" href="#">Заказать проект</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-dark" href="#">Портфолио</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-dark" href="#">Цены</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                            aria-expanded="false">Помощь</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Инструкции</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
