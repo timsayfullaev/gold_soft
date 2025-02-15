@@ -22,7 +22,7 @@ const swiperPartners = new Swiper('.swiper-partners', {
         1200: {
             slidesPerView: 5,
         },
-        1200: {
+        1400: {
             slidesPerView: 6,
         },
     },
