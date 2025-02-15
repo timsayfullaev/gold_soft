@@ -147,6 +147,10 @@
     overflow: hidden;
 }
 
+.partners {
+    background: linear-gradient(135deg, #212121 0%, #000 100%);
+}
+
 .footer a:hover {
     color: #FFD700 !important;
 }
