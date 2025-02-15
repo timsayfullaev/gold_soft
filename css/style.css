@@ -199,6 +199,10 @@
     color: #FFD700 !important;
 }
 
+.footer {
+    background: linear-gradient(315deg, #212121 0%, #000 100%);
+}
+
 .footer a:hover {
     color: #FFD700 !important;
 }
