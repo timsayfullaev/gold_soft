@@ -131,12 +131,12 @@
     background-color: #ffd700;
 }
 
-.programs-item {
+.programs-item, .projects-item {
     transition: all .25s;
 }
 
-.programs-item:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);;
+.programs-item:hover, .projects-item:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);;
 }
 
 .line-clamp {
@@ -189,6 +189,14 @@
 
 .swiper-button-next-arrow:after {
     content: '\f061';
+}
+
+.contact-feedback {
+    background: linear-gradient(225deg, #212121 0%, #000 100%);
+}
+
+.contact-feedback a:hover {
+    color: #FFD700 !important;
 }
 
 .footer a:hover {
