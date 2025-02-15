@@ -205,6 +205,10 @@
     .intro {
         background-position: 15%;
     }
+
+    .technologies-img {
+        height: 64px;
+    }
 }
 
 @media (max-width: 575.98px) {
