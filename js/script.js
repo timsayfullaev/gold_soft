@@ -1,7 +1,7 @@
 const swiperPartners = new Swiper('.swiper-partners', {
     navigation: {
-        nextEl: ".swiper-button-next-loop",
-        prevEl: ".swiper-button-prev-loop",
+        nextEl: ".swiper-button-next-partners",
+        prevEl: ".swiper-button-prev-partners",
     },
     slidesPerView: 1,
     loop: true,
@@ -31,8 +31,8 @@ const swiperPartners = new Swiper('.swiper-partners', {
 
 const swiperNews = new Swiper('.swiper-news', {
     navigation: {
-        nextEl: ".swiper-button-next-arrow",
-        prevEl: ".swiper-button-prev-arrow",
+        nextEl: ".swiper-button-next-news",
+        prevEl: ".swiper-button-prev-news",
     },
     slidesPerView: 1,
     spaceBetween: 10,
