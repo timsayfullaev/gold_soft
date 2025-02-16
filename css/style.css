@@ -131,12 +131,12 @@
     background-color: #ffd700;
 }
 
-.programs-item, .projects-item {
+.programs-item, .projects-item, .news-item, .updates-item {
     transition: all .25s;
 }
 
-.programs-item:hover, .projects-item:hover {
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);;
+.programs-item:hover, .projects-item:hover, .news-item:hover, .updates-item:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
 .line-clamp {
@@ -151,31 +151,32 @@
     background: linear-gradient(135deg, #212121 0%, #000 100%);
 }
 
-.swiper-button-next-arrow, .swiper-button-prev-arrow {
+.swiper-button-next-arrow, .swiper-button-prev-arrow, .swiper-button-next-loop, .swiper-button-prev-loop {
     width: 32px;
     height: 32px;
     border-radius: 100%;
     background-color: #FFD700;
     margin-top: calc(0px - (32px / 2));
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
-.swiper-button-next-arrow:hover, .swiper-button-prev-arrow:hover {
+.swiper-button-next-arrow:hover, .swiper-button-prev-arrow:hover, .swiper-button-next-loop:hover, .swiper-button-prev-loop:hover {
     background-color: #FFDF33;
 }
 
-.swiper-button-next-arrow:active, .swiper-button-prev-arrow:active {
+.swiper-button-next-arrow:active, .swiper-button-prev-arrow:active, .swiper-button-next-loop:active, .swiper-button-prev-loop:active {
     background-color: #E5C100;
 }
 
-.swiper-button-next-arrow {
-    right: 0;
+.swiper-button-next-arrow, .swiper-button-next-loop {
+    right: -16px;
 }
 
-.swiper-button-prev-arrow {
-    left: 0;
+.swiper-button-prev-arrow, .swiper-button-prev-loop {
+    left: -16px;
 }
 
-.swiper-button-next-arrow:after, .swiper-button-prev-arrow:after {
+.swiper-button-next-arrow:after, .swiper-button-prev-arrow:after, .swiper-button-next-loop:after, .swiper-button-prev-loop:after {
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
@@ -183,11 +184,11 @@
     color: #212121;
 }
 
-.swiper-button-prev-arrow:after {
+.swiper-button-prev-arrow:after, .swiper-button-prev-loop:after {
     content: '\f060';
 }
 
-.swiper-button-next-arrow:after {
+.swiper-button-next-arrow:after, .swiper-button-next-loop:after {
     content: '\f061';
 }
 
@@ -239,6 +240,14 @@
 
     .programs-img {
         width: 80px;
+    }
+
+    .swiper-button-next-arrow, .swiper-button-next-loop {
+        right: 12px;
+    }
+    
+    .swiper-button-prev-arrow, .swiper-button-prev-loop {
+        left: 12px;
     }
     
     .footer-logo {
