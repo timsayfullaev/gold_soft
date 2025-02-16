@@ -50,3 +50,25 @@ const swiperNews = new Swiper('.swiper-news', {
         },
     },
 });
+
+const swiperInstructions = new Swiper('.swiper-instructions', {
+    navigation: {
+        nextEl: ".swiper-button-next-instructions",
+        prevEl: ".swiper-button-prev-instructions",
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+    },
+});
