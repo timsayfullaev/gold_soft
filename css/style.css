@@ -2,6 +2,7 @@
     --bs-font-sans-serif: "Open Sans", sans-serif;
     --bs-dark-rgb: 33, 33, 33;
     --bs-light-rgb: 250, 250, 250;
+    --bs-light-color: rgba(250, 250, 250, 0.75);
     --bs-secondary-rgb: 117, 117, 117;
     --bs-border-color: #e0e0e0;
     --bs-body-color: #212121;
@@ -161,7 +162,8 @@ section:hover .cursor {
 .projects-item, 
 .news-item, 
 .updates-item,
-.instructions-item {
+.instructions-item,
+.certificates-item img {
     transition: all .25s;
 }
 
@@ -169,7 +171,8 @@ section:hover .cursor {
 .projects-item:hover, 
 .news-item:hover, 
 .updates-item:hover,
-.instructions-item:hover {
+.instructions-item:hover,
+.certificates-item img:hover {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
@@ -276,6 +279,22 @@ section:hover .cursor {
     color: #FFD700 !important;
 }
 
+.page-intro {
+    padding: 63px 0 142px 0;
+}
+
+.page-intro-about {
+    background-image: url('../img/bg/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb-light {
+    --bs-breadcrumb-divider-color: var(--bs-light-color);
+    --bs-breadcrumb-item-active-color: var(--bs-light-color);
+}
+
 @media (max-width: 991.98px) {
     .intro {
         background-position: 10%;
@@ -332,5 +351,13 @@ section:hover .cursor {
     
     .footer-logo {
         width: 98px;
+    }
+
+    .certificates-item-vertical {
+        width: 140px;
+    }
+
+    .certificates-item-horizontal {
+        width: 275px;
     }
 }

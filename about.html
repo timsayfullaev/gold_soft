@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gold Soft | Главная</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="bg-black text-light py-2">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="d-flex gap-3">
+                    <div class="d-none d-lg-block">
+                        <i class="fa-solid fa-clock text-secondary"></i>
+                        <span class="small lh-sm">Часы работы: ПН-ПТ 10:00-18:00</span>
+                    </div>
+                    <a class="link-light icon-link icon-link-hover text-decoration-none" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="tel:+998781501500">
+                        <i class="fa-solid fa-square-phone bi text-secondary"></i>
+                        <span class="small lh-sm">+998 78 150 150 0</span>
+                    </a>
+                    <a class="link-light icon-link icon-link-hover text-decoration-none d-none d-md-inline-flex" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="mailto:contact@goldsoft.uz">
+                        <i class="fa-solid fa-square-envelope bi text-secondary"></i>
+                        <span class="small lh-sm">contact@goldsoft.uz</span>
+                    </a>
+                    <a class="link-light icon-link icon-link-hover text-decoration-none d-none d-sm-inline-flex" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://t.me/goldsoftsupport" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-telegram bi text-secondary"></i>
+                        <span class="small lh-sm">@goldsoftsupport</span>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-toggle dropdown-toggle-lang p-0 border-0 bg-transparent text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="align-bottom" src="icons/languages/russia.svg" alt="Русский">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><img class="align-bottom" src="icons/languages/russia.svg" alt="Русский"> Русский</a></li>
+                        <li><a class="dropdown-item" href="#"><img class="align-bottom" src="icons/languages/uzbekistan.svg" alt="Узбекский"> Узбекский</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light text-dark py-2 border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-4 col-xl-auto col-xxl-2">
+                        <a href="#">
+                            <img src="img/logos/gold_soft_logo.svg" alt="Gold Soft">
+                        </a>
+                    </div>                    
+                    <div class="col-xl-auto flex-fill d-none d-xl-block">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link link-dark fw-bold active" aria-current="page" href="#">Главная</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">О нас</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Компания</a></li>
+                                    <li><a class="dropdown-item" href="#">Отрасли</a></li>
+                                    <li><a class="dropdown-item" href="#">Технологии</a></li>
+                                    <li><a class="dropdown-item" href="#">Новости</a></li>
+                                    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                    <li><a class="dropdown-item" href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Программы</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Скачать</a></li>
+                                    <li><a class="dropdown-item" href="#">Обновления</a></li>
+                                    <li><a class="dropdown-item" href="#">Заказать проект</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-dark" href="#">Портфолио</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-dark" href="#">Цены</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Помощь</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Инструкции</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-8 col-xl-3">
+                        <div class="d-flex justify-content-end align-items-center gap-3">
+                            <a class="btn btn-primary d-none d-sm-block" href="#" role="button">Скачать</a>
+                            <button type="button" class="btn btn-outline-primary d-none d-sm-block" data-bs-toggle="modal" data-bs-target="#feedbackModal">Оставить заявку</button>
+                            <button class="btn btn-outline-primary btn-lg rounded-circle d-xl-none p-0" style="width: 48px; height: 48px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHeader" aria-controls="offcanvasHeader">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHeader" aria-labelledby="offcanvasHeaderLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasHeaderLabel">Меню</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="nav nav-offcanvas flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link link-dark fw-bold active" aria-current="page" href="#">Главная</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                            aria-expanded="false">О нас</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Компания</a></li>
+                                            <li><a class="dropdown-item" href="#">Отрасли</a></li>
+                                            <li><a class="dropdown-item" href="#">Технологии</a></li>
+                                            <li><a class="dropdown-item" href="#">Новости</a></li>
+                                            <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                            <li><a class="dropdown-item" href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                            aria-expanded="false">Программы</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Скачать</a></li>
+                                            <li><a class="dropdown-item" href="#">Обновления</a></li>
+                                            <li><a class="dropdown-item" href="#">Заказать проект</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-dark" href="#">Портфолио</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link link-dark" href="#">Цены</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link link-dark dropdown-toggle dropdown-toggle-nav" data-bs-toggle="dropdown" href="#" role="button"
+                                            aria-expanded="false">Помощь</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Инструкции</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="fa-ul ms-4">
+                                    <li class="text-secondary mb-2"><span class="fa-li"><i class="fa-solid fa-clock"></i></span>Часы работы: ПН-ПТ 10:00-18:00</li>
+                                    <li class="text-secondary mb-2"><span class="fa-li"><i class="fa-solid fa-square-phone"></i></span><a class="text-decoration-none link-secondary" href="tel:+998781501500">+998 78 150 150 0</a></li>
+                                    <li class="text-secondary mb-2"><span class="fa-li"><i class="fa-solid fa-square-envelope"></i></span><a class="text-decoration-none link-secondary" href="mailto:contact@goldsoft.uz">contact@goldsoft.uz</a></li>
+                                    <li class="text-secondary mb-2"><span class="fa-li"><i class="fa-brands fa-telegram"></i></span><a class="text-decoration-none link-secondary" href="https://t.me/goldsoftsupport" target="_blank" rel="noopener noreferrer">@goldsoftsupport</a></li>
+                                    <li class="text-secondary mb-2"><span class="fa-li"><i class="fa-solid fa-location-dot"></i></span>г. Ташкент, ул. Бобура 74, офис 309</li>
+                                </ul>
+                                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-intro page-intro-about text-light mb-5">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-light mb-5">
+                    <li class="breadcrumb-item"><a class="link-light text-decoration-none" href="#">Главная</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Компании</li>
+                </ol>
+            </nav>
+            <div class="text-center">
+                <h1>О компании GOLD SOFT</h1>
+                <p class="opacity-75 mb-0">Инновационные решения</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <p class="fs-5 text-secondary text-center">Мы создаем программные продукты для автоматизации внешнеэкономической деятельности. <br>
+            Наши решения упрощают работу с таможенными декларациями, контрактами и расчетами.</p>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="h3 mb-5 text-center">Наши продукты</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="programs-item bg-light rounded-3 d-flex w-100 align-items-center flex-column flex-sm-row flex-md-column flex-lg-row">
+                        <div class="p-3">
+                            <a href="#"><img class="programs-img" src="img/programs/declarant.svg" alt="АИС «Декларант»"></a>
+                        </div>
+                        <div class="p-3 pt-0 pt-sm-3 pt-md-0 pt-lg-3 ps-sm-0 ps-md-3 ps-lg-0">
+                            <div class="h5 mb-3 text-center text-sm-start text-md-center text-lg-start">
+                                <a class="link-dark text-decoration-none" href="#">АИС «Декларант»</a>
+                            </div>
+                            <p class="text-secondary mb-3">Автоматизированная информационная система «Декларант» предназначена для заполнения грузовых таможенных деклараций и всех сопутствующих документов</p>
+                            <a class="icon-link icon-link-arrow icon-link-hover link-dark text-decoration-none" href="#">
+                                <span>Узнать больше</span>
+                                <i class="bi fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="programs-item bg-light rounded-3 d-flex w-100 align-items-center flex-column flex-sm-row flex-md-column flex-lg-row">
+                        <div class="p-3">
+                            <a href="#"><img class="programs-img" src="img/programs/contract.svg" alt="АИС «Контракт»"></a>
+                        </div>
+                        <div class="p-3 pt-0 pt-sm-3 pt-md-0 pt-lg-3 ps-sm-0 ps-md-3 ps-lg-0">
+                            <div class="h5 mb-3 text-center text-sm-start text-md-center text-lg-start">
+                                <a href="#" class="link-dark text-decoration-none">АИС «Контракт»</a>
+                            </div>
+                            <p class="text-secondary mb-3">Автоматизированная информационная система «Контракт» предназначена для оформления внешнеторговых контрактов и регистрации их в системе ЕЭИСВО</p>
+                            <a class="icon-link icon-link-arrow icon-link-hover link-dark text-decoration-none" href="#">
+                                <span>Узнать больше</span>
+                                <i class="bi fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="programs-item bg-light rounded-3 d-flex w-100 align-items-center flex-column flex-sm-row flex-md-column flex-lg-row">
+                        <div class="p-3">
+                            <a href="#"><img class="programs-img" src="img/programs/info.svg" alt="АИС «Инфо»"></a>
+                        </div>
+                        <div class="p-3 pt-0 pt-sm-3 pt-md-0 pt-lg-3 ps-sm-0 ps-md-3 ps-lg-0">
+                            <div class="h5 mb-3 text-center text-sm-start text-md-center text-lg-start">
+                                <a class="link-dark text-decoration-none" href="#">АИС «Инфо»</a>
+                            </div>
+                            <p class="text-secondary mb-3">Программа АИС «Инфо» вмещает в себя более 10 000 нормативно-правовых документов в области таможенного законодательства</p>
+                            <a class="icon-link icon-link-arrow icon-link-hover link-dark text-decoration-none" href="#">
+                                <span>Узнать больше</span>
+                                <i class="bi fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="programs-item bg-light rounded-3 d-flex w-100 align-items-center flex-column flex-sm-row flex-md-column flex-lg-row">
+                        <div class="p-3">
+                            <a href="#"><img class="programs-img" src="img/programs/calc.svg" alt="«Таможенный калькулятор»"></a>
+                        </div>
+                        <div class="p-3 pt-0 pt-sm-3 pt-md-0 pt-lg-3 ps-sm-0 ps-md-3 ps-lg-0">
+                            <div class="h5 mb-3 text-center text-sm-start text-md-center text-lg-start">
+                                <a class="link-dark text-decoration-none" href="#">«Таможенный калькулятор»</a>
+                            </div>
+                            <p class="text-secondary mb-3">Программа для расчёта таможенных платежей по коду ТН ВЭД</p>
+                            <a class="icon-link icon-link-arrow icon-link-hover link-dark text-decoration-none" href="#">
+                                <span>Узнать больше</span>
+                                <i class="bi fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="h3 mb-5 text-center">Преимущества</h2>
+            <div class="row">
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="bg-primary rounded-2 d-flex">
+                            <span class="px-1 rounded-start-2" style="background-color: #E5C100;"></span>
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <img src="icons/advantages/simple.svg" alt="Простота">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="h5 mb-3">Простота</div>
+                            <p class="text-secondary">Доступная стоимость, наилучший сервис, простота установки и обновлений</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="bg-primary rounded-2 d-flex">
+                            <span class="px-1 rounded-start-2" style="background-color: #E5C100;"></span>
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <img src="icons/advantages/interface.svg" alt="Удобный интерфейс">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="h5 mb-3">Удобный интерфейс</div>
+                            <p class="text-secondary">Удобный интерфейс программ, постоянно улучшающийся благодаря рекомендациям пользователей</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="bg-primary rounded-2 d-flex">
+                            <span class="px-1 rounded-start-2" style="background-color: #E5C100;"></span>
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <img src="icons/advantages/validation.svg" alt="Валидация">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="h5 mb-3">Валидация</div>
+                            <p class="text-secondary">Углубленная логическая проверка правильности заполнения ГТД/контракта</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="bg-primary rounded-2 d-flex">
+                            <span class="px-1 rounded-start-2" style="background-color: #E5C100;"></span>
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <img src="icons/advantages/engine.svg" alt="Лучший движок">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="h5 mb-3">Лучший движок</div>
+                            <p class="text-secondary">Лучший движок базы данных для десктопных приложений</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="bg-primary rounded-2 d-flex">
+                            <span class="px-1 rounded-start-2" style="background-color: #E5C100;"></span>
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <img src="icons/advantages/import_export.svg" alt="Импорт и экспорт">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="h5 mb-3">Импорт и экспорт</div>
+                            <p class="text-secondary">Улучшенная функция импорта/экспорта данных в/из MS Excel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="bg-primary rounded-2 d-flex">
+                            <span class="px-1 rounded-start-2" style="background-color: #E5C100;"></span>
+                            <div class="d-flex justify-content-center align-items-center p-3">
+                                <img src="icons/advantages/calculation.svg" alt="Точные расчеты">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="h5 mb-3">Точные расчеты</div>
+                            <p class="text-secondary">Выверенные функции точного расчета таможенных платежей, обновляющиеся вместе c законодательством РУз</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners py-5 my-5">
+        <div class="container">
+            <h2 class="h3 text-light text-uppercase mb-5 text-center">Нам доверяют более 1000 клиентов</h2>
+        </div>
+        <div class="container position-relative">
+            <div class="swiper swiper-partners">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/akfa.svg" alt="Akfa">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/alutex.svg" alt="Alutex">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/artel.svg" alt="Artel">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/claas.svg" alt="Claas">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/cocacola.svg" alt="Coca-Cola">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/enter_engineering.svg" alt="Enter Engineering">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/new_logistic.svg" alt="New Logistic">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/samauto.svg" alt="SamAuto">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/uzauto.svg" alt="UzAuto">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/uzkabel.svg" alt="Uzkabel">
+                    </div>
+                    <div class="swiper-slide p-2 text-center">
+                        <img src="img/logos/partners/uztelecom.svg" alt="Uztelecom">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev swiper-button-prev-partners"></div>
+            <div class="swiper-button-next swiper-button-next-partners"></div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="h3 mb-5 text-center">Сертификаты и свидетельства</h2>
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/1.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство №1">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/1.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/2.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство №2">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/2.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu02516.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 02516">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu02516.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu02517.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 02517">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu02517.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu03547.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 03547">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu03547.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu03548.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 03548">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu03548.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu04595.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 04595">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu04595.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu45484.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 45484">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu45484.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu46772.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 46772">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu46772.jpg">
+                </a>
+                <a class="certificates-item certificates-item-vertical" href="img/certificates/full/dgu46774.jpg" data-fancybox="gallery-certificates" data-caption="Свидетельство № DGU 46774">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/dgu46774.jpg">
+                </a>
+                <a class="certificates-item certificates-item-horizontal" href="img/certificates/full/it_park.jpg" data-fancybox="gallery-certificates" data-caption="Сертификат IT PARK">
+                    <img class="img-fluid border rounded-1" src="img/certificates/thumbnails/it_park.jpg">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="container">
+            <div class="bg-light rounded-3 p-3 p-xl-4 shadow-sm d-flex gap-5 align-items-center flex-column flex-lg-row">
+                <div>
+                    <h2 class="h3 text-center text-lg-start">Свяжитесь с нами</h2>
+                    <p class="text-secondary mb-4 text-center text-lg-start">Будем рады ответить на ваши вопросы</p>
+                    <div class="d-flex gap-2 align-items-center mb-3">
+                        <div class="d-flex justify-content-center align-items-center" style="min-height: 32px; min-width: 32px; color: #24A1DE;">
+                            <i class="fa-brands fa-telegram fa-2xl"></i>
+                        </div>
+                        <div>Написать в поддержку: <a class="link-dark text-decoration-none fw-bold d-inline-block" href="https://t.me/goldsoftsupport" target="_blank" rel="noopener noreferrer">@goldsoftsupport</a></div>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center mb-3">
+                        <div class="d-flex justify-content-center align-items-center rounded-circle text-light" style="min-height: 32px; min-width: 32px; background-color: #2ECC71;">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>Позвоните нам: <a class="link-dark text-decoration-none fw-bold d-inline-block" href="tel:+998781501500">+998 78 150 150 0</a></div>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center mb-3">
+                        <div class="d-flex justify-content-center align-items-center border rounded-circle text-secondary" style="min-height: 32px; min-width: 32px;">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>E-mail: <a class="link-dark text-decoration-none fw-bold d-inline-block" href="mailto:contact@goldsoft.uz">contact@goldsoft.uz</a></div>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center">
+                        <div class="d-flex justify-content-center align-items-center border rounded-circle text-secondary" style="min-height: 32px; min-width: 32px;">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>Адрес: г. Ташкент, ул. Бобура 74, офис 309</div>
+                    </div>
+                </div>
+                <div class="align-self-stretch d-none d-lg-block" style="min-height: 100%; min-width: 1px; background-color: #e0e0e0;"></div>
+                <div class="flex-fill">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label for="userNameInput" class="form-label">Ваше имя <span class="fw-bold text-danger">*</span></label>
+                                <input type="text" class="form-control" name="username" id="userNameInput">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label for="userPhoneInput" class="form-label">Контактный телефон <span class="fw-bold text-danger">*</span></label>
+                                <input type="tel" class="form-control" name="userPhone" id="userPhoneInput">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <p class="small text-secondary">Отправляя заявку, вы соглашаетесь на <a class="link-secondary" href="#" target="_blank">обработку персональных данных</a></p>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 mb-5 mb-sm-3 mb-lg-0 text-center">
+                    <a href="#">
+                        <img class="footer-logo" src="img/logos/gold_soft_logo_square.svg" alt="Gold Soft">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h4 text-secondary">О нас</div>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Компания</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Портфолио</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Отрасли</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Технологии</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Новости</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Отзывы</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h4 text-secondary">Программы</div>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Скачать</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Обновления</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Цены</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Заказать проект</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h4 text-secondary">Помощь</div>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">Инструкции</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row mb-3">
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h6 text-secondary mb-3">Наш адрес</div>
+                    <ul class="fa-ul ms-4">
+                        <li class="mb-1"><span class="fa-li"><i class="fa-solid fa-location-dot text-primary"></i></span>г. Ташкент, ул. Бобура 74, офис 309</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h6 text-secondary mb-3">Связаться с нами</div>
+                    <ul class="fa-ul ms-4">
+                        <li class="mb-1"><span class="fa-li"><i class="fa-solid fa-phone text-primary"></i></span><a class="link-light text-decoration-none" href="tel:+998781501500">+998 78 150 150 0</a></li>
+                        <li class="mb-1"><span class="fa-li"><i class="fa-solid fa-envelope text-primary"></i></span><a class="link-light text-decoration-none" href="mailto:contact@goldsoft.uz">contact@goldsoft.uz</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h6 text-secondary mb-3">Следите за нами</div>
+                    <ul class="fa-ul ms-4">
+                        <li class="mb-1"><span class="fa-li"><i class="fa-solid fa-people-group text-primary"></i></span><a class="link-light text-decoration-none" href="https://t.me/goldsoftsupport" target="_blank" rel="noopener noreferrer">Telegram Группа: <span class="fw-bold">@goldsoftsupport</span></a></li>
+                        <li class="mb-1"><span class="fa-li"><i class="fa-solid fa-newspaper text-primary"></i></span><a class="link-light text-decoration-none" href="https://t.me/gold_soft" target="_blank" rel="noopener noreferrer">Telegram Канал: <span class="fw-bold">@gold_soft</span></a></li>
+                        <li class="mb-1"><span class="fa-li"><i class="fa-solid fa-robot text-primary"></i></span><a class="link-light text-decoration-none" href="https://t.me/aisuzbot" target="_blank" rel="noopener noreferrer">Telegram Бот: <span class="fw-bold">@aisuzbot</span></a></li>
+                        <li class="mb-1"><span class="fa-li"><i class="fa-brands fa-youtube text-primary"></i></span><a class="link-light text-decoration-none" href="https://www.youtube.com/@goldsoftnews" target="_blank" rel="noopener noreferrer">Видеоуроки на YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="h6 text-secondary mb-3">Способы оплаты</div>
+                    <ul class="list-unstyled">
+                        <li class="mb-1 text-secondary">Перечислением на расчетный счет</li>
+                        <li class="mb-3 text-secondary"><a class="link-secondary text-decoration-none" href="https://xarid.uzex.uz/home" target="_blank" rel="noopener noreferrer">Оплата через биржу</a></li>
+                        <li class="mb-3"><img src="img/logos/payments/payme.svg" alt="Payme"></li>
+                        <li><img src="img/logos/payments/uzum_bank.svg" alt="Uzum Bank"></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+            <div class="row small">
+                <div class="col-sm-6 col-lg-9 mb-3 mb-sm-0">
+                    <a class="link-secondary" href="#" target="_blank" rel="noopener noreferrer">Политика конфиденциальности</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="text-secondary">2025 © GOLD SOFT</div>
+                    <div class="text-secondary">Разработка сайта GOLD SOFT</div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Оставить заявку</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

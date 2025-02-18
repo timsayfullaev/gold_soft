@@ -72,3 +72,5 @@ const swiperInstructions = new Swiper('.swiper-instructions', {
         },
     },
 });
+
+Fancybox.bind('[data-fancybox="gallery-certificates"]', {});
