@@ -281,18 +281,52 @@ section:hover .cursor {
 
 .page-intro {
     padding: 63px 0 142px 0;
-}
-
-.page-intro-about {
-    background-image: url('../img/bg/about.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.page-intro-about {
+    background-image: url('../img/bg/about.jpg');
+}
+
+.page-intro-branches {
+    background-image: url('../img/bg/branches.jpg');
+}
+
 .breadcrumb-light {
     --bs-breadcrumb-divider-color: var(--bs-light-color);
     --bs-breadcrumb-item-active-color: var(--bs-light-color);
+}
+
+.solutions-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.solutions-item-customs {
+    background-image: url('../img/bg/decisions/customs.jpg');
+}
+
+.solutions-item-automation {
+    background-image: url('../img/bg/decisions/automatization.jpg');
+}
+
+.solutions-item-docs {
+    background-image: url('../img/bg/decisions/docs.jpg');
+}
+
+.solutions-item-schedule {
+    background-image: url('../img/bg/decisions/schedules.jpg');
+}
+
+.solutions-item-survey {
+    background-image: url('../img/bg/decisions/polls.jpg');
+}
+
+.solutions-item-warehouse {
+    background-image: url('../img/bg/decisions/warehouse.jpg');
 }
 
 @media (max-width: 991.98px) {
