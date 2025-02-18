@@ -597,7 +597,24 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label for="userNameInput" class="form-label">Ваше имя <span class="fw-bold text-danger">*</span></label>
+                                <input type="text" class="form-control" name="username" id="userNameInput">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label for="userPhoneInput" class="form-label">Контактный телефон <span class="fw-bold text-danger">*</span></label>
+                                <input type="tel" class="form-control" name="userPhone" id="userPhoneInput">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <p class="small text-secondary">Отправляя заявку, вы соглашаетесь на <a class="link-secondary" href="#" target="_blank">обработку персональных данных</a></p>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
                 </div>
             </div>
         </div>
