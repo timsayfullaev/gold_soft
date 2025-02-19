@@ -361,6 +361,10 @@ section:hover .cursor {
     border-bottom-color: transparent;
 }
 
+.technologies-projects {
+    background: linear-gradient(135deg, #ffd700 0%, #e5c100 100%);
+}
+
 @media (max-width: 991.98px) {
     .intro {
         background-position: 10%;
