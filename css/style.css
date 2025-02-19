@@ -410,6 +410,12 @@ section:hover .cursor {
     background: linear-gradient(135deg, #FFDF33 0%, #e5c100 100%);
 }
 
+@media (max-width: 1199.98px) {
+    .contacts-left {
+        border-right: none !important;
+    }
+}
+
 @media (max-width: 991.98px) {
     .intro {
         background-position: 10%;
