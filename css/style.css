@@ -302,6 +302,18 @@ section:hover .cursor {
     background-image: url('../img/bg/branches.jpg');
 }
 
+.page-intro-technologies {
+    background-image: url('../img/bg/technologies.jpg');
+}
+
+.page-intro-reviews {
+    background-image: url('../img/bg/reviews.jpg');
+}
+
+.page-intro-contacts {
+    background-image: url('../img/bg/contacts.jpg');
+}
+
 .breadcrumb-light {
     --bs-breadcrumb-divider-color: var(--bs-light-color);
     --bs-breadcrumb-item-active-color: var(--bs-light-color);
