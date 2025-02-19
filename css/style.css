@@ -261,6 +261,14 @@ section:hover .cursor {
     color: #FFD700 !important;
 }
 
+.instructions-timeline-step {
+    transition: all .25s;
+}
+
+.instructions-timeline-item:hover .instructions-timeline-step {
+    background-color: #FFD700 !important;
+}
+
 .instructions-link {
     display: inline-block;
     transition: all .25s;
@@ -268,6 +276,23 @@ section:hover .cursor {
 
 .instructions-link:hover {
     transform: rotate(2deg);
+}
+
+.link-faq-icon {
+    transform: rotate(15deg);
+    transition: all .25s;
+}
+
+.link-faq-text {
+    transition: all .25s;
+}
+
+.link-faq:hover .link-faq-icon {
+    transform: rotate(5deg)
+}
+
+.link-faq:hover .link-faq-text {
+    transform: rotate(1deg);
 }
 
 .instructions-line {
