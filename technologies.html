@@ -232,6 +232,49 @@
         </div>
     </section>
 
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2 class="h3 mb-5 text-center">Заказать разработку</h2>
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 mb-3">
+                                <label for="orderUserName" class="form-label">Ваше имя <span class="fw-bold text-danger">*</span></label>
+                                <input type="text" class="form-control" name="orderUserName" id="orderUserName" required>
+                            </div>
+                            <div class="col-sm-6 col-md-4 mb-3">
+                                <label for="orderUserPhone" class="form-label">Контактный телефон <span class="fw-bold text-danger">*</span></label>
+                                <input type="tel" class="form-control" name="orderUserPhone" id="orderUserPhone" required>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="orderUserEmail" class="form-label">E-mail <span class="fw-bold text-danger">*</span></label>
+                                <input type="email" class="form-control" name="orderUserEmail" id="orderUserEmail" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="orderUserTextarea" class="form-label">Пара слов о вашем проекте <span class="fw-bold text-danger">*</span></label>
+                            <textarea class="form-control" name="orderUserTextarea" id="orderUserTextarea" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="file-upload d-inline-flex align-items-center gap-3">
+                                <input class="d-none" type="file" name="orderUserFile" id="orderUserFile">
+                                <span class="file-upload-icon">
+                                    <i class="fa-solid fa-paperclip"></i>
+                                </span>
+                                <span class="file-upload-text">Прикрепить файл</span>
+                            </label>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row gap-3 align-items-start align-items-md-center justify-content-md-between">
+                            <p class="small text-secondary mb-0">Отправляя заявку, вы соглашаетесь на <a class="link-secondary" href="#" target="_blank">обработку персональных данных</a></p>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer text-light py-5">
         <div class="container">
             <div class="row">
