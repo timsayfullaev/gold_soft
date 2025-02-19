@@ -1,3 +1,5 @@
+'use strict';
+
 const swiperPartners = new Swiper('.swiper-partners', {
     navigation: {
         nextEl: ".swiper-button-next-partners",
@@ -74,3 +76,8 @@ const swiperInstructions = new Swiper('.swiper-instructions', {
 });
 
 Fancybox.bind('[data-fancybox="gallery-certificates"]', {});
+
+document.getElementById("orderUserFile").addEventListener("change", function () {
+    let fileName = this.files.length ? this.files[0].name : "Прикрепить файл";
+    document.querySelector(".file-upload-text").textContent = fileName;
+});

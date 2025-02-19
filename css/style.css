@@ -329,6 +329,38 @@ section:hover .cursor {
     background-image: url('../img/bg/decisions/warehouse.jpg');
 }
 
+.file-upload {
+    cursor: pointer;
+}
+
+.file-upload-icon {
+    background-color: #FFD700;
+    min-width: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all .25s;
+}
+
+.file-upload-text {
+    border-bottom: 1px dotted #212121;
+    transition: all .25s;
+}
+
+.file-upload:hover .file-upload-icon {
+    background-color: #FFDF33;
+}
+
+.file-upload:active .file-upload-icon {
+    background-color: #E5C100;
+}
+
+.file-upload:hover .file-upload-text {
+    border-bottom-color: transparent;
+}
+
 @media (max-width: 991.98px) {
     .intro {
         background-position: 10%;
