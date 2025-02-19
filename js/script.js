@@ -75,6 +75,14 @@ const swiperInstructions = new Swiper('.swiper-instructions', {
     },
 });
 
+const swiperReviews = new Swiper('.swiper-reviews', {
+    navigation: {
+        nextEl: ".swiper-button-next-reviews",
+        prevEl: ".swiper-button-prev-reviews",
+    },
+    loop: true
+});
+
 Fancybox.bind('[data-fancybox="gallery-certificates"]', {});
 
 document.getElementById("orderUserFile").addEventListener("change", function () {

@@ -190,7 +190,8 @@ section:hover .cursor {
 
 .swiper-button-next-partners, .swiper-button-prev-partners, 
 .swiper-button-next-news, .swiper-button-prev-news,
-.swiper-button-next-instructions, .swiper-button-prev-instructions {
+.swiper-button-next-instructions, .swiper-button-prev-instructions,
+.swiper-button-next-reviews, .swiper-button-prev-reviews {
     width: 32px;
     height: 32px;
     border-radius: 100%;
@@ -201,31 +202,36 @@ section:hover .cursor {
 
 .swiper-button-next-partners:hover, .swiper-button-prev-partners:hover, 
 .swiper-button-next-news:hover, .swiper-button-prev-news:hover,
-.swiper-button-next-instructions:hover, .swiper-button-prev-instructions:hover {
+.swiper-button-next-instructions:hover, .swiper-button-prev-instructions:hover,
+.swiper-button-next-reviews:hover, .swiper-button-prev-reviews:hover {
     background-color: #FFDF33;
 }
 
 .swiper-button-next-partners:active, .swiper-button-prev-partners:active, 
 .swiper-button-next-news:active, .swiper-button-prev-news:active,
-.swiper-button-next-instructions:active, .swiper-button-prev-instructions:active {
+.swiper-button-next-instructions:active, .swiper-button-prev-instructions:active,
+.swiper-button-next-reviews:active, .swiper-button-prev-reviews:active {
     background-color: #E5C100;
 }
 
 .swiper-button-next-partners, 
 .swiper-button-next-news,
-.swiper-button-next-instructions {
+.swiper-button-next-instructions,
+.swiper-button-next-reviews {
     right: -16px;
 }
 
 .swiper-button-prev-partners, 
 .swiper-button-prev-news,
-.swiper-button-prev-instructions {
+.swiper-button-prev-instructions,
+.swiper-button-prev-reviews {
     left: -16px;
 }
 
 .swiper-button-next-partners:after, .swiper-button-prev-partners:after, 
 .swiper-button-next-news:after, .swiper-button-prev-news:after,
-.swiper-button-next-instructions:after, .swiper-button-prev-instructions:after {
+.swiper-button-next-instructions:after, .swiper-button-prev-instructions:after,
+.swiper-button-next-reviews:after, .swiper-button-prev-reviews:after {
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
@@ -235,13 +241,15 @@ section:hover .cursor {
 
 .swiper-button-prev-partners:after, 
 .swiper-button-prev-news:after,
-.swiper-button-prev-instructions:after {
+.swiper-button-prev-instructions:after,
+.swiper-button-prev-reviews:after {
     content: '\f060';
 }
 
 .swiper-button-next-partners:after, 
 .swiper-button-next-news:after,
-.swiper-button-next-instructions:after {
+.swiper-button-next-instructions:after,
+.swiper-button-next-reviews:after {
     content: '\f061';
 }
 
@@ -362,7 +370,7 @@ section:hover .cursor {
 }
 
 .technologies-projects {
-    background: linear-gradient(135deg, #ffd700 0%, #e5c100 100%);
+    background: linear-gradient(135deg, #FFDF33 0%, #e5c100 100%);
 }
 
 @media (max-width: 991.98px) {
@@ -405,13 +413,15 @@ section:hover .cursor {
 
     .swiper-button-next-partners, 
     .swiper-button-next-news,
-    .swiper-button-next-instructions {
+    .swiper-button-next-instructions,
+    .swiper-button-next-reviews {
         right: 12px;
     }
     
     .swiper-button-prev-partners, 
     .swiper-button-prev-news,
-    .swiper-button-prev-instructions {
+    .swiper-button-prev-instructions,
+    .swiper-button-prev-reviews {
         left: 12px;
     }
 
