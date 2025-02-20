@@ -339,6 +339,10 @@ section:hover .cursor {
     background-image: url('../img/bg/contacts.jpg');
 }
 
+.page-intro-prices {
+    background-image: url('../img/bg/prices.jpg');
+}
+
 .breadcrumb-light {
     --bs-breadcrumb-divider-color: var(--bs-light-color);
     --bs-breadcrumb-item-active-color: var(--bs-light-color);
@@ -408,6 +412,26 @@ section:hover .cursor {
 
 .technologies-projects {
     background: linear-gradient(135deg, #FFDF33 0%, #e5c100 100%);
+}
+
+.options {
+    margin-left: 18px;
+}
+
+.options-list {
+    position: relative;
+}
+
+.options-list::before {
+    content: '';
+    border-radius: 2px;
+    width: 8px;
+    height: 8px;
+    background: #212121;
+    position: absolute;
+    top: 50%;
+    left: -18px;
+    transform: translateY(-50%);
 }
 
 @media (max-width: 1199.98px) {
