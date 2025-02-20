@@ -287,11 +287,11 @@ section:hover .cursor {
     transition: all .25s;
 }
 
-.link-faq:hover .link-faq-icon {
+.instructions-contacts:hover .link-faq-icon {
     transform: rotate(5deg)
 }
 
-.link-faq:hover .link-faq-text {
+.instructions-contacts:hover .link-faq-text {
     transform: rotate(1deg);
 }
 
