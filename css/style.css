@@ -7,6 +7,7 @@
     --bs-border-color: #e0e0e0;
     --bs-body-color: #212121;
     --bs-primary-rgb: 255, 215, 0;
+    --bs-primary: #FFD700;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, 
@@ -347,6 +348,10 @@ section:hover .cursor {
     background-image: url('../img/bg/development.jpg');
 }
 
+.page-intro-faq {
+    background-image: url('../img/bg/faq.jpg');
+}
+
 .breadcrumb-light {
     --bs-breadcrumb-divider-color: var(--bs-light-color);
     --bs-breadcrumb-item-active-color: var(--bs-light-color);
@@ -436,6 +441,16 @@ section:hover .cursor {
     top: 50%;
     left: -18px;
     transform: translateY(-50%);
+}
+
+.accordion-button:hover {
+    background-color: #ffd700;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #212121;
+    background-color: #ffd700;
+    box-shadow: none;
 }
 
 @media (max-width: 1199.98px) {
