@@ -83,7 +83,31 @@ const swiperReviews = new Swiper('.swiper-reviews', {
     loop: true
 });
 
+const swiperTutorials = new Swiper('.swiper-tutorials', {
+    navigation: {
+        nextEl: ".swiper-button-next-tutorials",
+        prevEl: ".swiper-button-prev-tutorials",
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+    },
+});
+
 Fancybox.bind('[data-fancybox="gallery-certificates"]', {});
+
+Fancybox.bind('[data-fancybox="gallery-tutorials"]', {});
 
 document.getElementById("orderUserFile").addEventListener("change", function () {
     let fileName = this.files.length ? this.files[0].name : "Прикрепить файл";

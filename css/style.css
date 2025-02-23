@@ -164,7 +164,8 @@ section:hover .cursor {
 .news-item, 
 .updates-item,
 .instructions-item,
-.certificates-item img {
+.certificates-item img,
+.tutorials-item img {
     transition: all .25s;
 }
 
@@ -173,7 +174,8 @@ section:hover .cursor {
 .news-item:hover, 
 .updates-item:hover,
 .instructions-item:hover,
-.certificates-item img:hover {
+.certificates-item img:hover,
+.tutorials-item img:hover {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
@@ -192,7 +194,8 @@ section:hover .cursor {
 .swiper-button-next-partners, .swiper-button-prev-partners, 
 .swiper-button-next-news, .swiper-button-prev-news,
 .swiper-button-next-instructions, .swiper-button-prev-instructions,
-.swiper-button-next-reviews, .swiper-button-prev-reviews {
+.swiper-button-next-reviews, .swiper-button-prev-reviews,
+.swiper-button-next-tutorials, .swiper-button-prev-tutorials {
     width: 32px;
     height: 32px;
     border-radius: 100%;
@@ -204,35 +207,40 @@ section:hover .cursor {
 .swiper-button-next-partners:hover, .swiper-button-prev-partners:hover, 
 .swiper-button-next-news:hover, .swiper-button-prev-news:hover,
 .swiper-button-next-instructions:hover, .swiper-button-prev-instructions:hover,
-.swiper-button-next-reviews:hover, .swiper-button-prev-reviews:hover {
+.swiper-button-next-reviews:hover, .swiper-button-prev-reviews:hover,
+.swiper-button-next-tutorials:hover, .swiper-button-prev-tutorials:hover {
     background-color: #FFDF33;
 }
 
 .swiper-button-next-partners:active, .swiper-button-prev-partners:active, 
 .swiper-button-next-news:active, .swiper-button-prev-news:active,
 .swiper-button-next-instructions:active, .swiper-button-prev-instructions:active,
-.swiper-button-next-reviews:active, .swiper-button-prev-reviews:active {
+.swiper-button-next-reviews:active, .swiper-button-prev-reviews:active,
+.swiper-button-next-tutorials:active, .swiper-button-prev-tutorials:active {
     background-color: #E5C100;
 }
 
 .swiper-button-next-partners, 
 .swiper-button-next-news,
 .swiper-button-next-instructions,
-.swiper-button-next-reviews {
+.swiper-button-next-reviews,
+.swiper-button-next-tutorials {
     right: -16px;
 }
 
 .swiper-button-prev-partners, 
 .swiper-button-prev-news,
 .swiper-button-prev-instructions,
-.swiper-button-prev-reviews {
+.swiper-button-prev-reviews,
+.swiper-button-prev-tutorials {
     left: -16px;
 }
 
 .swiper-button-next-partners:after, .swiper-button-prev-partners:after, 
 .swiper-button-next-news:after, .swiper-button-prev-news:after,
 .swiper-button-next-instructions:after, .swiper-button-prev-instructions:after,
-.swiper-button-next-reviews:after, .swiper-button-prev-reviews:after {
+.swiper-button-next-reviews:after, .swiper-button-prev-reviews:after,
+.swiper-button-next-tutorials:after, .swiper-button-prev-tutorials:after {
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
@@ -243,14 +251,16 @@ section:hover .cursor {
 .swiper-button-prev-partners:after, 
 .swiper-button-prev-news:after,
 .swiper-button-prev-instructions:after,
-.swiper-button-prev-reviews:after {
+.swiper-button-prev-reviews:after,
+.swiper-button-prev-tutorials:after {
     content: '\f060';
 }
 
 .swiper-button-next-partners:after, 
 .swiper-button-next-news:after,
 .swiper-button-next-instructions:after,
-.swiper-button-next-reviews:after {
+.swiper-button-next-reviews:after,
+.swiper-button-next-tutorials:after {
     content: '\f061';
 }
 
@@ -505,14 +515,16 @@ section:hover .cursor {
     .swiper-button-next-partners, 
     .swiper-button-next-news,
     .swiper-button-next-instructions,
-    .swiper-button-next-reviews {
+    .swiper-button-next-reviews,
+    .swiper-button-next-tutorials {
         right: 12px;
     }
     
     .swiper-button-prev-partners, 
     .swiper-button-prev-news,
     .swiper-button-prev-instructions,
-    .swiper-button-prev-reviews {
+    .swiper-button-prev-reviews,
+    .swiper-button-prev-tutorials {
         left: 12px;
     }
 
