@@ -490,7 +490,7 @@ section:hover .cursor {
     position: fixed;
     right: 48px;
     bottom: 48px;
-    z-index: 3;
+    z-index: 2;
 }
 
 @media (max-width: 1199.98px) {
