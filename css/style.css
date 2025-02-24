@@ -181,6 +181,10 @@ section:hover .cursor {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
+.certificates-item:hover i, .screenshots-item:hover i {
+    display: block !important;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: 3;
