@@ -119,7 +119,7 @@ if (fileInput) {
     });
 }
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
     let headerBottom = document.querySelector(".header-bottom");
     if (window.scrollY > 40) {
         headerBottom.classList.add("position-fixed", "top-0", "w-100", "z-3", "shadow");
@@ -141,5 +141,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
     scrollBtn.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Проверяем, есть ли хэш в URL и активируем вкладку
+    let hash = window.location.hash;
+    if (hash) {
+        let tabButton = document.querySelector(`[data-bs-target="${hash}"]`);
+        if (tabButton) {
+            let tab = new bootstrap.Tab(tabButton);
+            tab.show();
+        }
+    }
+
+    // Добавляем обработчик кликов на вкладки
+    let tabLinks = document.querySelectorAll('[data-bs-toggle="pill"]');
+    tabLinks.forEach(tab => {
+        tab.addEventListener("click", function (event) {
+            event.preventDefault(); // Предотвращаем стандартное поведение браузера
+
+            let target = this.getAttribute("data-bs-target");
+            
+            // Обновляем хэш без скролла
+            history.pushState(null, null, target);
+
+            // Показываем таб
+            let tab = new bootstrap.Tab(this);
+            tab.show();
+        });
+    });
+
+    // Если пользователь нажимает "назад" в браузере, меняем вкладку
+    window.addEventListener("popstate", function () {
+        let tabButton = document.querySelector(`[data-bs-target="${window.location.hash}"]`);
+        if (tabButton) {
+            let tab = new bootstrap.Tab(tabButton);
+            tab.show();
+        }
     });
 });
