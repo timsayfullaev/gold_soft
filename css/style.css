@@ -389,27 +389,27 @@ section:hover .cursor {
 }
 
 .solutions-item-customs {
-    background-image: url('../img/bg/decisions/customs.jpg');
+    background-image: url('../img/bg/customs.jpg');
 }
 
 .solutions-item-automation {
-    background-image: url('../img/bg/decisions/automatization.jpg');
+    background-image: url('../img/bg/automatization.jpg');
 }
 
 .solutions-item-docs {
-    background-image: url('../img/bg/decisions/docs.jpg');
+    background-image: url('../img/bg/docs.jpg');
 }
 
 .solutions-item-schedule {
-    background-image: url('../img/bg/decisions/schedules.jpg');
+    background-image: url('../img/bg/schedules.jpg');
 }
 
 .solutions-item-survey {
-    background-image: url('../img/bg/decisions/polls.jpg');
+    background-image: url('../img/bg/polls.jpg');
 }
 
 .solutions-item-warehouse {
-    background-image: url('../img/bg/decisions/warehouse.jpg');
+    background-image: url('../img/bg/warehouse.jpg');
 }
 
 .file-upload {
