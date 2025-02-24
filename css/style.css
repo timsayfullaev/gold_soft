@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 105px;
 }
 
+.header-bottom {
+    transition: all .25s;
+}
+
 .dropdown-menu {
     --bs-dropdown-link-active-bg: #FFD700;
     --bs-dropdown-link-active-color: #212121;
@@ -479,6 +483,16 @@ section:hover .cursor {
     min-width: 32px;
 }
 
+.btn-scroll-to-top {
+    display: none;
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    right: 48px;
+    bottom: 48px;
+    z-index: 3;
+}
+
 @media (max-width: 1199.98px) {
     .contacts-left {
         border-right: none !important;
@@ -557,5 +571,10 @@ section:hover .cursor {
 
     .screenshots-item {
         width: 140px;
+    }
+
+    .btn-scroll-to-top {
+        right: 24px;
+        bottom: 24px;
     }
 }

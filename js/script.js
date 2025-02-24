@@ -127,3 +127,19 @@ window.addEventListener("scroll", function() {
         headerBottom.classList.remove("position-fixed", "top-0", "w-100", "z-3", "shadow");
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollBtn = document.getElementById("scrollToTop");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 600) {
+            scrollBtn.classList.add("d-flex");
+        } else {
+            scrollBtn.classList.remove("d-flex");
+        }
+    });
+
+    scrollBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
