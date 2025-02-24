@@ -111,7 +111,19 @@ Fancybox.bind('[data-fancybox="gallery-tutorials"]', {});
 
 Fancybox.bind('[data-fancybox="gallery-screenshots"]', {});
 
-document.getElementById("orderUserFile").addEventListener("change", function () {
-    let fileName = this.files.length ? this.files[0].name : "Прикрепить файл";
-    document.querySelector(".file-upload-text").textContent = fileName;
+const fileInput = document.getElementById("orderUserFile");
+if (fileInput) {
+    fileInput.addEventListener("change", function () {
+        let fileName = this.files.length ? this.files[0].name : "Прикрепить файл";
+        document.querySelector(".file-upload-text").textContent = fileName;
+    });
+}
+
+window.addEventListener("scroll", function() {
+    let headerBottom = document.querySelector(".header-bottom");
+    if (window.scrollY > 40) {
+        headerBottom.classList.add("position-fixed", "top-0", "w-100", "z-3", "shadow");
+    } else {
+        headerBottom.classList.remove("position-fixed", "top-0", "w-100", "z-3", "shadow");
+    }
 });
