@@ -165,7 +165,8 @@ section:hover .cursor {
 .updates-item,
 .instructions-item,
 .certificates-item img,
-.tutorials-item img {
+.tutorials-item img,
+.screenshots-item img {
     transition: all .25s;
 }
 
@@ -175,7 +176,8 @@ section:hover .cursor {
 .updates-item:hover,
 .instructions-item:hover,
 .certificates-item img:hover,
-.tutorials-item img:hover {
+.tutorials-item img:hover,
+.screenshots-item img:hover {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
@@ -542,5 +544,9 @@ section:hover .cursor {
 
     .certificates-item-horizontal {
         width: 275px;
+    }
+
+    .screenshots-item {
+        width: 140px;
     }
 }

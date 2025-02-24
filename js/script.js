@@ -109,6 +109,8 @@ Fancybox.bind('[data-fancybox="gallery-certificates"]', {});
 
 Fancybox.bind('[data-fancybox="gallery-tutorials"]', {});
 
+Fancybox.bind('[data-fancybox="gallery-screenshots"]', {});
+
 document.getElementById("orderUserFile").addEventListener("change", function () {
     let fileName = this.files.length ? this.files[0].name : "Прикрепить файл";
     document.querySelector(".file-upload-text").textContent = fileName;
